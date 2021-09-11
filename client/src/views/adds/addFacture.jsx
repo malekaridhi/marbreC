@@ -30,7 +30,7 @@ const AddFacture = () => {
   //dispatch(getClient());
   const getcharges = () => {
     axios
-    .get("http://localhost:8000/charge")
+    .get("https://marble7.herokuapp.com/charge")
     .then((res) => {
       //console.log(res.data)
       setCharges(res.data);
@@ -41,7 +41,7 @@ const AddFacture = () => {
   };
   const getClients = () => {
     axios
-    .get("http://localhost:8000/clients")
+    .get("https://marble7.herokuapp.com/clients")
     .then((res) => {
       //console.log(res.data)
       setClients(res.data);
@@ -52,7 +52,7 @@ const AddFacture = () => {
   };
   const getProduct = () => {
     axios
-      .get("http://localhost:8000/products")
+      .get("https://marble7.herokuapp.com/products")
       .then((res) => {
         //console.log(res.data)
         setProducts(res.data);
@@ -63,7 +63,7 @@ const AddFacture = () => {
   };
   const getChargeClients = () => {
     axios
-      .get("http://localhost:8000/charge-client")
+      .get("https://marble7.herokuapp.com/charge-client")
       .then((res) => {
         //console.log(res.data)
         setChargeClients(res.data);

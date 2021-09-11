@@ -4,7 +4,7 @@ import {
     DELETE_EMPCHARGE,
   } from "./type";
   import axios from "axios";
-  const base_url = "http://localhost:8000/charge-client";
+  const base_url = "https://marble7.herokuapp.com/charge-client";
   export const getChEmp = () => (dispatch) => {
     //console.log("from fetching shit")
     axios

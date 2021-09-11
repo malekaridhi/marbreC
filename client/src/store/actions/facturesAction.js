@@ -5,7 +5,7 @@ import {
     ONE_FACTURE,
   } from "./type";
   import axios from "axios";
-  const base_url = "http://localhost:8000/facture";
+  const base_url = "https://marble7.herokuapp.com/facture";
   export const getFacture = () => (dispatch) => {
     //console.log("from fetching shit")
     axios

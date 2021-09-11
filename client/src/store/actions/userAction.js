@@ -5,7 +5,7 @@ import {
   } from "./type";
   import axios from "axios";
   
-  const base_url = "http://localhost:8000/clients";
+  const base_url = "https://marble7.herokuapp.com/clients";
   export const getClient  = () => (dispatch) => {
     //console.log("from fetching shit")
     axios

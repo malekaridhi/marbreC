@@ -5,7 +5,7 @@ import {
     ONE_PRODUCTS,
   } from "./type";
   import axios from "axios";
-  const base_url = "http://localhost:8000/products";
+  const base_url = "https://marble7.herokuapp.com/products";
   export const getProducts = () => (dispatch) => {
     //console.log("from fetching shit")
     axios

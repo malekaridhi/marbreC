@@ -45,8 +45,10 @@
 
 [[redirects]]
   from = "/*"
-  to = "/blog/:splat"
-
+  to = "/now-ui-dashboard-react"
+status = 200
+  force = false 
+  
 # A redirect rule with many of the supported properties
 [[redirects]]
   from = "/old-path"
